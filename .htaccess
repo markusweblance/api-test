@@ -1,0 +1,4 @@
+DirectoryIndex /app/index.php /app/index.html
+
+RewriteEngine On
+RewriteRule ^(admin)$ /app/admin/index.html

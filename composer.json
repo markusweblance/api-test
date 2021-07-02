@@ -1,0 +1,24 @@
+{
+    "name": "marku/api-project",
+    "description": "api-test",
+    "authors": [
+        {
+            "name": "markusvannorlen",
+            "email": "55348513+markusvannorlen@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^5.3",
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "api\\Model",
+            "api\\DB",
+            "api\\Controllers"
+        ]
+    },
+  "require": {
+    "ext-json": "*"
+  }
+}
